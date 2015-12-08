@@ -1,0 +1,24 @@
+{
+  "name": "mediumjs_nwjs",
+  "version": "1.0.0",
+  "description": "trial of mediumjs with nwjs",
+  "main": "index.html",
+  "window": {
+    "title": "mediumjs nwjs",
+    "icon": "",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 800,
+    "position": "mouse",
+    "min_width": 1200,
+    "min_height": 800,
+    "max_width": 1200,
+    "max_height": 800
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha src/tests/**/*.test.js --require src/tests/chai-config.js"
+  },
+  "author": "Yosuke Yasuda",
+  "license": "MIT"
+}
