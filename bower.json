@@ -1,0 +1,22 @@
+{
+  "name": "mediumjs_nwjs",
+  "description": "trial of mediumjs with nwjs",
+  "main": "index.html",
+  "authors": [
+    "Yosuke Yasuda"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/double-y/mediumjs_nwjs",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Medium.js": "medium#~1.0.1"
+  }
+}
